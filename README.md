@@ -9,9 +9,13 @@ When the program runs, it first trains the model. After training, it asks the us
 For example, I can enter:
 x b o b x b o b x
 The program then prints the board like this:
+
 x | b | o
+
 b | x | b
+
 o | b | x
+
 Then it sends that board into the trained model and prints a prediction.
 For this example, the output might be:
 Prediction: X will probably win.
